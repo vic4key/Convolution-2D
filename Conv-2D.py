@@ -7,9 +7,7 @@
 # https://docs.gimp.org/2.8/en/plug-in-convmatrix.html
 # https://en.wikipedia.org/wiki/Kernel_(image_processing)
 
-import numpy as np
 from PyVutils import Cv
-
 import Kernels
 
 im = Cv.Load("data/59643893_2262072140712829_2661529050794688512_n.jpg")
